@@ -1,0 +1,20 @@
+////////////////////////
+// Layout Partials
+//
+// Seperate your layout from design, building sub folders and partials
+//  in this folder, with everything being imported, in casading order,
+//  into this file.
+//
+// All box model properties go here
+////////////////////////
+//UNIVERSAL LAYOUT
+@import "universal";
+
+//MOBILE LAYOUT
+@import "mobile";
+
+//TABLET LAYOUT
+@import "tablet";
+
+//DESKTOP LAYOUT
+@import "desktop";

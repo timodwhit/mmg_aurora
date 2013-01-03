@@ -1,0 +1,11 @@
+@include at-breakpoint($phone-landscape){
+  .container{
+    @include container;
+  }
+}
+.sidebar-first{
+  #sidebar-first{
+    @include span-columns(6);
+  }
+}
+

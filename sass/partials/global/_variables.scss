@@ -1,0 +1,47 @@
+////////////////////////
+// Variables Partials
+//
+// All of your variables should go in this file.
+////////////////////////
+
+/**
+ *Colors
+ */
+//Grays: These are here just to help with common gray shades
+$gray_100: #fff;
+$gray_90: #E5E5E5;
+$gray_80: #CCC;
+$gray_70: #B3B3B3;
+$gray_60: #999;
+$gray_50: #7F7F7F;
+$gray_40: #666;
+$gray_30: #4D4D4D;
+$gray_20: #333;
+$gray_10: #1A1A1A;
+$gray_00: #000;
+
+//Site Colors: Define Site Colors here. 
+
+
+//Fonts
+$arial: arial, sans-serif;
+$times:'Times New Roman', times, serif;
+
+//Font Standards
+$size:16px;
+$h1:36px;
+$h2:30px;
+$h3:24px;
+$h4:18px;
+$family: $times;
+$line-height: 1;
+$weight:normal;
+$stlye: none;
+
+//Breaking Points and layouts
+
+$total-columns:6;//Since it is mobile first we set a low number of columns
+$phone-landscape: 33em 9 47em; // 528px - 752px
+$tablet-landscape: 47em 9 60em; // 752px - 960px
+$tablet:47em; 
+$desktop_sm: 60em 12; // 960px - 1140px

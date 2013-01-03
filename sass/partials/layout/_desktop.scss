@@ -1,0 +1,19 @@
+@include at-breakpoint($desktop_sm){
+  .container{
+    @include container;
+  }
+  .two-sidebars{
+     #sidebar-first{
+       @include span-columns(3,12);
+       @include pull(9);
+     }
+    #sidebar-second{
+      @include span-columns(3 omega, 12);
+    }
+    #content{
+      @include span-columns(6,12);
+      @include push(3);
+    }
+  }
+}
+
